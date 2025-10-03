@@ -34,19 +34,20 @@ List interfcae can be classified into  types like :: arraylist and linked list,v
        List l=new ArrayList(); //capacity 10 default 
 
 toString()-> method converts the context of the object into readable format 
-                              
 
+Assm1
+write a program that reads the data from teh text file id name sal and put in the collection and on that basis calculate the sal and give hrm and carete a new tetx file and inserts in that file.
 
+ASSM2
+                              A
 
+               B                             c
 
+      List<A> l=new AL<>();  if i pass the parent A as ref to generic then i can the B and C chjild class propwertis (The inheruatnce herrarchy will work ??)
 
+ASSM3
 
-
-
-
-
-
-
+can i convert the arraylist to linked list 
 
 
 
