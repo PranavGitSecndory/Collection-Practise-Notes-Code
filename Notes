@@ -33,7 +33,7 @@ List interfcae can be classified into  types like :: arraylist and linked list,v
       arraylist is default csapacity is 10 ig the arraylist is emepty 
        List l=new ArrayList(); //capacity 10 default 
 
-
+toString()-> method converts the context of the object into readable format 
                               
 
 

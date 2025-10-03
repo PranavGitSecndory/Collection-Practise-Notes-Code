@@ -10,7 +10,12 @@ public class PractList1 {
          sd.add(new StudentData(3, "suraj", 70, 700));
          sd.add(new StudentData(4, "abhi", 45, 900));
 
-         System.out.println(sd);   }
+         System.out.println(sd) ;
+
+         for (StudentData studentData : sd) {
+            studentData.showData();
+         }
+           }
 }
 
 class StudentData{
@@ -21,7 +26,7 @@ class StudentData{
 
   public StudentData(int std_id,String std_name,int mks_csc,int mks_mm)
   {
-    super();
+   
     this.mks_csc=mks_csc;
     this.std_id=std_id;
     this.std_name=std_name;
@@ -30,10 +35,12 @@ class StudentData{
 
   void showData(){
 
-    System.out.println("student ID::"+std_id+"Studnt name"+std_name+"marks"+mks_csc);
+    System.out.println("student ID::"+std_id+" Studnt name::"+std_name+" marks::"+mks_csc);
   }
 
-
+public String toString(){
+    return  "StudentData [std_id="+std_id+"std_name]";
+}
 
 
 }
