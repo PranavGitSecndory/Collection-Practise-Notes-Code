@@ -38,19 +38,39 @@ toString()-> method converts the context of the object into readable format
 Assm1
 write a program that reads the data from teh text file id name sal and put in the collection and on that basis calculate the sal and give hrm and carete a new tetx file and inserts in that file.
 
-ASSM2
+ASSM-2
                               A
 
                B                             c
 
       List<A> l=new AL<>();  if i pass the parent A as ref to generic then i can the B and C chjild class propwertis (The inheruatnce herrarchy will work ??)
 
-ASSM3
+ASSM-3
 
 can i convert the arraylist to linked list 
 
+----------------------Set--------------------------------- 
 
+NOte in hashSet ::  whenver we are  cretung a set woith differnt address it add dupilcate such as 
+emp1= new Emoplioyee(1,"java");
+emp2=new Emoplioyee(2,"java");
 
+it will take the duplicate for the   for the above two objects are crated but belwo when have the same wrpapper class object such as 
+lhs2.add("cherry");
+lhs2.add("cherry");  //duplicates are mote allowed 
+whats teh internal prblm 
+
+Integrer i1=new Integer(10);
+Integr i2=new Integer(10);
+
+Integer i3=20;
+Integer i4=20
+
+String s1=new Sting("java");
+String s2=new Sting("java");
+s3=s1;
+s4=s2;
+can i get the duplucets.
 
 
 
