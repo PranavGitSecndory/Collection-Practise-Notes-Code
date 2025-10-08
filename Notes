@@ -70,7 +70,60 @@ String s1=new Sting("java");
 String s2=new Sting("java");
 s3=s1;
 s4=s2;
-can i get the duplucets.
+can i get the duplucets.  
+
+jvm should not create the object address whenever we are with set or hash -----why ?
+why we need to ovveride the set when working with hash?
+
+emp1= new Emoplioyee(1,"java");
+emp2=new Emoplioyee(2,"java");
+
+now for the above how the ovverideing the method 
+
+public  int hashcode(){
+      //retrun objects.hash(empId);
+      return empId+1;
+}
+
+
+class call  done 
+collection pract hashcode
+git hub liitle rfeview
+prjct search best of best
+...................................
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

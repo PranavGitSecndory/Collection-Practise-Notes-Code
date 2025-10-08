@@ -13,10 +13,48 @@ public class DemoSet {
      lhs2.add("Apple");
      lhs2.add("banana");
      lhs2.add("orange");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
      lhs2.add("cherry");
      lhs2.add("cherry");
      System.out.println("printing the hashset ");
      System.out.println(lhs2.toString());
+
 
 
 
