@@ -92,11 +92,18 @@ git hub liitle rfeview
 prjct search best of best
 ...................................
 
+Equals method is used to comapre the content when we are working with litrals and string class but when we work with object class and collection it has differnt meaning it check the reference address 
 
+String s1 = "Hello";
+String s2 = "Hello";
 
+System.out.println(s1 == s2);       // true ✅ (same reference from String pool)
+System.out.println(s1.equals(s2));  // true ✅ (same content)
 
+   Student s1 = new Student("Pranav");
+        Student s2 = new Student("Pranav");
 
-
+        System.out.println(s1.equals(s2)); // false (if we dont ovveride the equals methodd)
 
 
 

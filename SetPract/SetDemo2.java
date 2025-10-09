@@ -46,7 +46,7 @@ public class SetDemo2 {
         Set<EmployeeData1> setWithout = new HashSet<>();
         Set<EmployeeData1> setWith = new HashSet<>();
 
-        //  Thread 1 (no override)
+        //  Thread 1 
         Thread t1 = new Thread(() -> {
             EmployeeData1.useOverride = false;
             for (int i = 0; i < 3; i++) {
@@ -55,7 +55,7 @@ public class SetDemo2 {
             System.out.println("Thread 1 done (no override)");
         });
 
-        //  Thread 2 (with override)
+        //  Thread 2 
         Thread t2 = new Thread(() -> {
             EmployeeData1.useOverride = true;
             for (int i = 0; i < 3; i++) {
